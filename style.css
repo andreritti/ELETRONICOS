@@ -6,3 +6,20 @@
     background-color: rgb(0, 0, 0);
     color: white;
 }
+
+body {
+    background-color: black;
+    
+}
+
+.folders {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.folders img {
+    padding: 10px;
+    padding-top: 10px;
+}
