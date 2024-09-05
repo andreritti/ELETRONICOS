@@ -14,8 +14,9 @@ body {
 
 .folders {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
 
 
 }
@@ -30,6 +31,6 @@ body {
 .folders img:hover {
     transform: scale(1.1);
     transition: 300ms ease ;
-    box-shadow: 3px 3px 34px 4px rgba(0,0,0,0.42);
+    box-shadow: 4px 4px 15px 5px #fff
     cursor: pointer;
 }
