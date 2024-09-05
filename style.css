@@ -49,5 +49,5 @@ body {
     background-color: blue;
     cursor: pointer;
     transform: scale(1.1);
-    transition: 300ms ease
+    transition: 300ms ease;
 }
