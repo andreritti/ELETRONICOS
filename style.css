@@ -22,4 +22,14 @@ body {
 .folders img {
     padding: 10px;
     padding-top: 10px;
+    height: 500px;
+    width: 500px;
+    border-radius: 15px;
+}
+
+.folders img:hover {
+    transform: scale(1.1);
+    transition: 300ms ease ;
+    box-shadow: 3px 3px 34px 4px rgba(0,0,0,0.42);
+    cursor: pointer;
 }
