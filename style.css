@@ -17,14 +17,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 10px;
-    gap: 40px:
 
 
 }
 .folders img {
-    margin: 20px;
+    margin: 40px;
     height: 500px;
-    width: 500px;
+    width: 550px;
     border-radius: 15px;
 }
 
@@ -33,4 +32,22 @@ body {
     transition: 300ms ease ;
     box-shadow: 4px 4px 15px 5px #fff;
     cursor: pointer;
+}
+
+.button {
+    background-color: transparent;
+    border-radius: 10px;
+    border: solid 2px blue;
+    color: blue;
+    height: 45px;
+    width: 185px;
+}
+
+.button: hover {
+    color: white;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 300ms ease
 }
